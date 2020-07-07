@@ -7,8 +7,6 @@ import { BackbaseCoreModule } from '@backbase/foundation-ang/core';
 import { environment } from '../environments/environment';
 import { MobileOtpWidgetModule } from '@dap/mobile-otp-widget';
 
-import { ContainersModule } from '@backbase/universal-ang/containers';
-import { LayoutcontainerModule } from '@backbase/universal-ang/layouts';
 
 @NgModule({
   declarations: [
@@ -18,7 +16,6 @@ import { LayoutcontainerModule } from '@backbase/universal-ang/layouts';
     BrowserModule,
     HttpClientModule,
     BackbaseCoreModule,
-    ContainersModule,
     BackbaseCoreModule.forRoot({
         features: {
             THEME_V2: true

@@ -4,8 +4,16 @@ display: block
 
 input[type="tel"] {
     margin: 0 auto;
+    
 }
 
 .container {
+    padding: 10px;
+    margin: 5px;
     text-align: center;
+}
+
+
+label {
+    font-weight:400;
 }
